@@ -5,6 +5,7 @@
  *
  * Return: Always 0 (SUccess)
  */
+int main(void)
 {
 	int a;
 	long int b;
