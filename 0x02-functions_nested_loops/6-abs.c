@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _abs; function comoutes absoluter value of integer
+ * main: check code
+ * _abs: function comoutes absoluter value of integer
  * @ab: integer input
  *
  * return: absolute value of integer
