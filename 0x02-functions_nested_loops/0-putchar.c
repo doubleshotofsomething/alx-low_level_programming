@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  * main - entry point
  *
- * description: prints a program that returns 0
+ * description: prints a program
  *
  * Return: Always 0
  */
