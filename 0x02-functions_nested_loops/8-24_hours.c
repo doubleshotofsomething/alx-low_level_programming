@@ -2,6 +2,7 @@
 
 /**
  * jack_bauer: prints every minute of the day
+ * Jack Bauer
  * Description: a function that prints every minute of the day of Jack Bauer
  *
  * Return: 24 hour clock
