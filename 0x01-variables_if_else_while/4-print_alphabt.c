@@ -16,7 +16,8 @@ int main(void)
 		if (lower != e && lower != q)
 			putchar(lower);
 	}
-	"printf("\n");
+
+	putchar('\n');
 
 	return (0);
 }
