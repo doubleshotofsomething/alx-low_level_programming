@@ -2,14 +2,14 @@
 
 /**
  * more_numbers - function that prints ten times the numbers.
- * 
+ *
  * Return: Always 0.
  */
 void more_numbers(void)
 {
 	int num1, num2, num3, row;
 
-	for (row = 1; row <= 10; row ++)
+	for (row = 1; row <= 10; row++)
 	{
 		for (num1 = 0; num1 <= 14; num1++)
 		{
