@@ -5,6 +5,7 @@
  * @n: bytes.
  * @src: output string.
  * @dest: intput.
+ * Return: results.
  */
 char *_strncpy(char *dest, char *src, int n)
 {
