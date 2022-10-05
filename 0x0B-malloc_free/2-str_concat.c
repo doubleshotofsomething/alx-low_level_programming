@@ -3,42 +3,78 @@
 #include <stdlib.h>
 
 /**
- * str_concat - function that concatenates two strings.
- * @s1: This is the first input string
- * @s2: This is the second input string
- * @n: This is the limit to copy the second string to the first string
- *
- * Return: This is the string joined
+ * str_concat - concatenates two strings.
+ * @s1: pointer char.
+ * @s2: pointer to char.
+ * Return: results.
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+char *str_concat(char *s1, char *s2)
 {
-	unsigned int a, b;
-	char *newString;
+	char *result;
+	int i = 0, j = 0, cont, k = 0;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	for (a = 0; s1[a] != '\0'; a++)
+	while (s1[i])
 	{
+		i++;
 	}
-	for (b = 0; s2[b] != '\0'; b++)
+	while (s2[j])
 	{
+		j++;
 	}
-	if (n > b)
-	n = b;
-	newString = malloc(((a + n) + 1));
-	if (newString == NULL)
+	k = i + j + 1;
+	result = malloc(k * sizeof(char));
+	if (result = NULL)
 		return (NULL);
-	for (a = 0; s1[a] != '\0'; a++)
+	for (cont = 0; cont < i; cont++)
 	{
-		newString[a] = s1[a];
+		result[cont] = s1[cont];
 	}
-	for (b = 0; b != n; b++)
+	for (cont = 0; cont <= j; cont++)
 	{
-		newString[a] = s2[b];
-		a++;
+		result[cont + i] = s2[cont];
 	}
-	newString[a] = '\0';
-	return (newString);
+	return (result);
 }
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+-- INSERT --                                                                11,1          All
+
